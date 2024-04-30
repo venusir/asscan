@@ -2,6 +2,14 @@
 # asscan 获取 CF 反代节点
 
 clear
+
+echo "安装依赖"
+apt-get update
+apt-get install -y curl masscan
+
+echo "删除已有的asn"
+rm -rf asn
+
 echo "本脚需要用root权限执行masscan扫描"
 echo "请自行确认当前是否以root权限运行"
 echo "1.单个AS模式"
@@ -315,7 +323,7 @@ else
 fi
 echo "开始检测 AS$asn TCP端口 $port 有效性"
 rm -rf paused.conf
-./masscan -p $port -iL asn/$asn-24 --wait=3 --rate=$rate -oL data.txt
+masscan -p $port -iL asn/$asn-24 --wait=3 --rate=$rate -oL data.txt
 echo "开始检测 AS$asn REAL IP有效性"
 cloudflarerealip
 echo "开始检测 AS$asn RTT信息"
