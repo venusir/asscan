@@ -11,7 +11,7 @@ echo "本脚需要用root权限执行masscan扫描"
 echo "请自行确认当前是否以root权限运行"
 echo "1.单个AS模式"
 echo "2.批量AS列表模式"
-read -p "请输入模式号(默认模式1):" scanmode
+scanmode=1 #read -p "请输入模式号(默认模式1):" scanmode
 if [ -z "$scanmode" ]
 then
 	scanmode=1
@@ -20,8 +20,8 @@ if [ $scanmode == 1 ]
 then
 	clear
 	echo "当前为单个AS模式"
-	read -p "请输入AS号码(默认45102):" asn
-	read -p "请输入扫描端口(默认443):" port
+	asn=45102 #read -p "请输入AS号码(默认45102):" asn
+	port=443 #read -p "请输入扫描端口(默认443):" port
 	if [ -z "$asn" ]
 	then
 		asn=45102
@@ -36,7 +36,7 @@ then
 	echo "当前批量AS列表模式"
 	echo "待扫描的默认列表文件as.txt格式如下所示"
 	echo -e "\n45102:443\n132203:443\n自治域号:端口号\n"
-	read -p "请设置列表文件(默认as.txt):" filename
+	filename=as.txt #read -p "请设置列表文件(默认as.txt):" filename
 	if [ -z "$filename" ]
 	then
 		filename=as.txt
@@ -45,9 +45,9 @@ else
 	echo "输入的数值不正确,脚本已退出!"
 	exit
 fi
-read -p "请设置masscan pps rate(默认10000):" rate
-read -p "请设置curl测试进程数(默认50,最大100):" tasknum
-read -p "是否需要测速[(默认0.否)1.是]:" mode
+rate=10000 #read -p "请设置masscan pps rate(默认10000):" rate
+tasknum=100 #read -p "请设置curl测试进程数(默认50,最大100):" tasknum
+mode=0 #read -p "是否需要测速[(默认0.否)1.是]:" mode
 if [ -z "$rate" ]
 then
 	rate=10000
