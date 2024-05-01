@@ -5,7 +5,7 @@ clear
 
 echo "安装依赖"
 apt-get update
-apt-get install -y curl masscan
+apt-get install -y curl masscan libpcap-dev
 
 echo "本脚需要用root权限执行masscan扫描"
 echo "请自行确认当前是否以root权限运行"
