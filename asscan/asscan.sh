@@ -7,9 +7,6 @@ echo "安装依赖"
 apt-get update
 apt-get install -y curl masscan
 
-echo "删除已有的asn"
-rm -rf asn
-
 echo "本脚需要用root权限执行masscan扫描"
 echo "请自行确认当前是否以root权限运行"
 echo "1.单个AS模式"
