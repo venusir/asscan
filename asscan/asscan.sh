@@ -36,7 +36,8 @@ then
 	echo "当前批量AS列表模式"
 	echo "待扫描的默认列表文件as.txt格式如下所示"
 	echo -e "\n45102:443\n132203:443\n自治域号:端口号\n"
-	filename=as.txt #read -p "请设置列表文件(默认as.txt):" filename
+	#filename=as.txt #read -p "请设置列表文件(默认as.txt):" filename
+	filename=$1
 	if [ -z "$filename" ]
 	then
 		filename=as.txt
