@@ -2,7 +2,9 @@
 
 * [ymyuuu](https://ipdb.api.030101.xyz/) 
 
-  [github](https://github.com/ymyuuu/IPDB)
+```
+github: https://github.com/ymyuuu/IPDB
+```
 
 ```
 https://ipdb.api.030101.xyz/?type=bestproxy&country=true
