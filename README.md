@@ -49,6 +49,9 @@ https://cn.xxxxxxxx.tk/
   * [视频](https://www.youtube.com/watch?v=p-KhFJAC4WQ)
   * [Github](https://github.com/cmliu/WorkerVless2sub)
 
+* 优选IP全面讲解
+  * [博客](https://tweek.top/archives/1710328114363)
+
 ### telegram频道
 
 ```
