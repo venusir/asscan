@@ -3,7 +3,7 @@
 * [ymyuuu](https://ipdb.api.030101.xyz/) 
 
 ```
-github: https://github.com/ymyuuu/IPDB
+https://github.com/ymyuuu/IPDB #github地址
 ```
 
 ```
@@ -44,6 +44,10 @@ https://cn.xxxxxxxx.tk/
 
   * [博客](https://bulianglin.com/archives/newcdn.html)
   * [视频](https://youtu.be/NbruiJShUCE)
+
+* 优选订阅生成器
+  * [视频](https://www.youtube.com/watch?v=p-KhFJAC4WQ)
+  * [Github](https://github.com/cmliu/WorkerVless2sub)
 
 ### telegram频道
 
