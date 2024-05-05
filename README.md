@@ -51,6 +51,7 @@ https://cn.xxxxxxxx.tk/
 
 * 优选IP全面讲解
   * [博客](https://tweek.top/archives/1710328114363)
+  * [视频](https://www.youtube.com/watch?v=CkU5-SiSdoo)
 
 ### telegram频道
 
