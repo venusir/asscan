@@ -21,6 +21,7 @@ awk -F "," 'NR!=1{print $1}' result.csv > tmp.txt
 sed "s/$/:443#CN/g" tmp.txt >> cfproxy.txt
 
 rm -rf tmp.txt
+rm -rf result.csv
 
 git add .
 
