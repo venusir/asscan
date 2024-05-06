@@ -4,6 +4,8 @@ git pull
 
 cat /dev/null > cfproxy.txt
 
+chmod +x CloudflareST
+
 # 筛选HK IP
 ./CloudflareST -f ip_hk.txt -tl 250 -sl 5 -url https://speedtest.venusir.com
 
