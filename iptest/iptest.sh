@@ -9,6 +9,7 @@
 for ips in $(find ips -name "*.txt") 
 do
   asn=$(basename $ips .txt) | awk '{print toupper($0)}'
+  echo $asn
   #./CloudflareST -f $ips -tl 250 -sl 5 -dn 5 -url https://speedtest.venusir.com
   #awk -F "," 'NR!=1{print $1}' result.csv > tmp.txt
   sed 's/$/:443#'$asn'/g' tmp.txt >> proxy.txt
