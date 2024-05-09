@@ -2,23 +2,17 @@
 
 git pull
 
-cat /dev/null > proxy.txt
-
 chmod +x CloudflareST
 
-# 筛选HK IP
-./CloudflareST -f ip.txt -tl 250 -sl 5 -dn 5 -url https://speedtest.venusir.com
+cat /dev/null > proxy.txt
 
-awk -F "," 'NR!=1{print $1}' result.csv > tmp.txt
-
-sed "s/$/:443#CF/g" tmp.txt >> proxy.txt
-
-# 筛选CN IP
-./CloudflareST -f ip_hk.txt -tl 250 -sl 5 -dn 5 -url https://speedtest.venusir.com
-
-awk -F "," 'NR!=1{print $1}' result.csv > tmp.txt
-
-sed "s/$/:443#HK/g" tmp.txt >> proxy.txt
+for ips in `find ips -name ".txt"` 
+do 
+  echo $ips
+  ./CloudflareST -f ips -tl 250 -sl 5 -dn 5 -url https://speedtest.venusir.com
+  awk -F "," 'NR!=1{print $1}' result.csv > tmp.txt
+  sed "s/$/:443#CF/g" tmp.txt >> proxy.txt
+done;
 
 rm -rf tmp.txt
 rm -rf result.csv
