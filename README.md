@@ -10,6 +10,34 @@
 搬瓦工：server=="cloudflare" && asn=="25820"
 ```
 
+
+### 二次筛选有效的反代CF的IP
+
+> OpenBullet2：https://github.com/openbullet/OpenBullet2/releases/latest
+> CF节点信息：/cdn-cgi/trace
+> 机场三字码查询：http://airport.anseo.cn/
+
+* loli脚本：
+
+```
+BLOCK:HttpRequest
+  url = $"http://<input.DATA>/cdn-cgi/trace"
+  maxNumberOfRedirects = 2
+  customHeaders = {("Host", "cf.nicename.tk")}
+  timeoutMilliseconds = 3000
+  TYPE:STANDARD
+  $""
+  "application/x-www-form-urlencoded"
+ENDBLOCK
+
+BLOCK:Keycheck
+  banIfNoMatch = False
+  KEYCHAIN SUCCESS OR
+    STRINGKEY @data.SOURCE Contains "h=cf.nicename.tk"
+ENDBLOCK
+
+```
+
 ### 常用优选IP地址
 
 * [ymyuuu](https://ipdb.api.030101.xyz/) 
