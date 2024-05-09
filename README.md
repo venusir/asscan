@@ -14,7 +14,9 @@
 ### 二次筛选有效的反代CF的IP
 
 > OpenBullet2：https://github.com/openbullet/OpenBullet2/releases/latest
+
 > CF节点信息：/cdn-cgi/trace
+
 > 机场三字码查询：http://airport.anseo.cn/
 
 * loli脚本：
