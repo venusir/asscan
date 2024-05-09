@@ -7,11 +7,11 @@ cat /dev/null > cfproxy.txt
 chmod +x CloudflareST
 
 # 筛选HK IP
-#./CloudflareST -f ip.txt -tl 250 -sl 5 -dn 5 -url https://speedtest.venusir.com
+./CloudflareST -f ip.txt -tl 250 -sl 5 -dn 5 -url https://speedtest.venusir.com
 
-#awk -F "," 'NR!=1{print $1}' result.csv > tmp.txt
+awk -F "," 'NR!=1{print $1}' result.csv > tmp.txt
 
-#sed "s/$/:443#CF/g" tmp.txt >> cfproxy.txt
+sed "s/$/:443#CF/g" tmp.txt >> cfproxy.txt
 
 # 筛选CN IP
 ./CloudflareST -f ip_hk.txt -tl 250 -sl 5 -dn 5 -url https://speedtest.venusir.com
