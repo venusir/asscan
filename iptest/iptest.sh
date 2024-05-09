@@ -8,6 +8,7 @@
 
 for ips in $(find ips -name "*.txt") 
 do
+  echo $ips
   asn=$(basename $ips .txt) | awk '{print toupper($0)}'
   echo $asn
   #./CloudflareST -f $ips -tl 250 -sl 5 -dn 5 -url https://speedtest.venusir.com
