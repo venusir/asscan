@@ -1,3 +1,15 @@
+### 查找反代CF的IP
+
+> https://fofa.info/
+
+```
+国内反代IP：server=="cloudflare" && port=="80" && header="Forbidden" && country=="CN"
+剔除CF：asn!="13335" && asn!="209242"
+阿里云：server=="cloudflare" && asn=="45102"
+甲骨文韩国：server=="cloudflare" && asn=="31898" && country=="KR"
+搬瓦工：server=="cloudflare" && asn=="25820"
+```
+
 ### 常用优选IP地址
 
 * [ymyuuu](https://ipdb.api.030101.xyz/) 
