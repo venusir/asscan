@@ -1,5 +1,11 @@
 #!/bin/bash
 
+CURRENT_DIR=$(cd $(dirname $0); pwd)
+
+echo $CURRENT_DIR
+
+cd $CURRENT_DIR
+
 git pull
 
 chmod +x CloudflareST
@@ -22,5 +28,5 @@ rm -rf tmp.txt
 rm -rf result.csv
 
 git add .
-git commit . -m 每日更新优选IP
+git commit . -m Update IP
 git push
