@@ -28,5 +28,5 @@ rm -rf tmp.txt
 rm -rf result.csv
 
 git add .
-git commit . -m Update IP
+git commit . -m Update
 git push
