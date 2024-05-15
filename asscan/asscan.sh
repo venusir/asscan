@@ -7,10 +7,12 @@ echo "安装依赖"
 apt-get update
 apt-get install -y curl masscan libpcap-dev
 
+# 获取当前脚本所在目录
 CURRENT_DIR=$(cd $(dirname $0); pwd)
 
 echo $CURRENT_DIR
 
+# 进入当前脚本所在目录
 cd $CURRENT_DIR
 
 echo "本脚需要用root权限执行masscan扫描"
