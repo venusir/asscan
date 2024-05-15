@@ -19,7 +19,7 @@ echo "本脚需要用root权限执行masscan扫描"
 echo "请自行确认当前是否以root权限运行"
 echo "1.单个AS模式"
 echo "2.批量AS列表模式"
-scanmode=1 #read -p "请输入模式号(默认模式1):" scanmode
+scanmode=2 #read -p "请输入模式号(默认模式1):" scanmode
 if [ -z "$scanmode" ]
 then
 	scanmode=1
