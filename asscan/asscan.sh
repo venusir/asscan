@@ -15,6 +15,8 @@ echo $CURRENT_DIR
 # 进入当前脚本所在目录
 cd $CURRENT_DIR
 
+git pull
+
 echo "本脚需要用root权限执行masscan扫描"
 echo "请自行确认当前是否以root权限运行"
 echo "1.单个AS模式"
@@ -397,3 +399,7 @@ then
 else
 	main
 fi
+
+git add .
+git commit . -m Update
+git push
