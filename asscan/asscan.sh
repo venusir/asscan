@@ -7,6 +7,12 @@ echo "安装依赖"
 apt-get update
 apt-get install -y curl masscan libpcap-dev
 
+CURRENT_DIR=$(cd $(dirname $0); pwd)
+
+echo $CURRENT_DIR
+
+cd $CURRENT_DIR
+
 echo "本脚需要用root权限执行masscan扫描"
 echo "请自行确认当前是否以root权限运行"
 echo "1.单个AS模式"

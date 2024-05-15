@@ -1,9 +1,11 @@
 #!/bin/bash
 
+# 获取当前脚本所在目录
 CURRENT_DIR=$(cd $(dirname $0); pwd)
 
 echo $CURRENT_DIR
 
+# 进入当前脚本所在目录
 cd $CURRENT_DIR
 
 git pull
