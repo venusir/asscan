@@ -400,6 +400,9 @@ else
 	main
 fi
 
+rm -rf data.txt
+rm -rf realip.txt
+
 git add .
 git commit . -m Update
 git push
