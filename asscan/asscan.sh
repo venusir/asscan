@@ -57,7 +57,7 @@ else
 	exit
 fi
 rate=10000 #read -p "请设置masscan pps rate(默认10000):" rate
-tasknum=50 #read -p "请设置curl测试进程数(默认50,最大100):" tasknum
+tasknum=100 #read -p "请设置curl测试进程数(默认50,最大100):" tasknum
 mode=1 #read -p "是否需要测速[(默认0.否)1.是]:" mode
 if [ -z "$rate" ]
 then
