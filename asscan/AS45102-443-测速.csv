@@ -1,39 +1,33 @@
 中转IP,中转端口,回源IP,国家,数据中心,IP类型,网络延迟,等效带宽,峰值速度
-47.242.57.106,443,47.76.109.172,HK,Hong Kong,隧道,57 ms,120 Mbps,15462 kB/s
-8.218.63.172,443,8.218.63.172,HK,Hong Kong,中转,55 ms,10 Mbps,1333 kB/s
-8.217.90.154,443,8.217.90.154,HK,Hong Kong,中转,49 ms,45 Mbps,5814 kB/s
-8.211.0.134,443,2a0b:21c0:1007:ca:0:cbd4:a748:5c03,DE,Frankfurt,隧道,192 ms,14 Mbps,1871 kB/s
-47.57.245.232,443,47.254.73.153,US,San Jose,隧道,58 ms,0 Mbps,41 kB/s
-8.210.92.27,443,8.210.92.27,HK,Hong Kong,中转,56 ms,0 Mbps,30 kB/s
-47.238.245.170,443,47.238.245.170,HK,Hong Kong,中转,51 ms,59 Mbps,7555 kB/s
-47.254.167.236,443,98.98.156.22,AE,Frankfurt,隧道,193 ms,4 Mbps,594 kB/s
-47.238.235.163,443,47.238.235.163,HK,Hong Kong,中转,56 ms,38 Mbps,4898 kB/s
-47.254.154.70,443,2a0b:21c0:100a:1b6:0:6d2c:acff:2b7,DE,Frankfurt,隧道,184 ms,35 Mbps,4491 kB/s
-8.209.75.172,443,2606:f240:f00:46c4:0:8e29:a03b:e4ed,US,Frankfurt,隧道,184 ms,16 Mbps,2101 kB/s
-8.211.6.185,443,163.123.193.10,DE,Frankfurt,隧道,189 ms,32 Mbps,4100 kB/s
-8.211.12.213,443,2606:f240:f00:2be4:0:63ad:3b43:2116,US,Frankfurt,隧道,216 ms,29 Mbps,3779 kB/s
-47.254.179.197,443,2a0b:21c0:100a:1f9:0:a3c4:9eb6:a525,DE,Frankfurt,隧道,204 ms,21 Mbps,2783 kB/s
-47.91.90.225,443,2606:f240:f00:eaf1:0:2b07:6da3:5eb3,US,Frankfurt,隧道,187 ms,26 Mbps,3382 kB/s
-47.236.117.48,443,47.236.117.48,SG,Singapore,中转,315 ms,2 Mbps,331 kB/s
-8.209.105.57,443,2606:f240:f00:46c4:0:f565:8185:ecf1,US,Frankfurt,隧道,215 ms,22 Mbps,2924 kB/s
-8.209.91.14,443,2a0b:21c0:1007:1c7:0:2516:2cb2:7b00,DE,Frankfurt,隧道,238 ms,2 Mbps,325 kB/s
-8.219.174.142,443,8.219.174.142,SG,Singapore,中转,326 ms,3 Mbps,464 kB/s
-47.238.222.172,443,47.245.197.104,DE,Frankfurt,隧道,129 ms,128 Mbps,16384 kB/s
-8.211.6.124,443,2a0b:21c0:1007:ca:0:d4c8:dfd2:ec66,DE,Frankfurt,隧道,237 ms,10 Mbps,1301 kB/s
-47.254.155.107,443,2a0b:21c0:1007:c8:0:eb8e:ebce:901c,DE,Frankfurt,隧道,205 ms,26 Mbps,3429 kB/s
-8.209.103.10,443,2606:f240:f00:2be4:0:bef2:55f1:ba53,US,Frankfurt,隧道,197 ms,35 Mbps,4545 kB/s
-47.242.68.32,443,47.242.68.32,HK,Hong Kong,中转,50 ms,0 Mbps,11 kB/s
-8.211.10.4,443,2a0b:21c0:1007:1c7:0:ff4:e99c:6ea9,DE,Frankfurt,隧道,230 ms,17 Mbps,2274 kB/s
-8.211.13.62,443,2606:f240:f00:5a42:0:c888:7cd6:1b5a,US,Frankfurt,隧道,184 ms,19 Mbps,2433 kB/s
-149.129.8.215,443,47.88.55.210,US,San Jose,隧道,141 ms,3 Mbps,483 kB/s
-8.219.201.245,443,8.219.201.245,SG,Singapore,中转,320 ms,7 Mbps,969 kB/s
-47.251.74.226,443,104.166.125.210,US,Los Angeles,隧道,244 ms,0 Mbps,23 kB/s
-47.57.14.118,443,47.254.16.242,US,San Jose,隧道,57 ms,0 Mbps,122 kB/s
-47.254.129.39,443,2606:f240:f00:eaf1:0:77d2:c168:2918,US,Frankfurt,隧道,298 ms,24 Mbps,3173 kB/s
-8.219.144.168,443,8.219.144.168,SG,Singapore,中转,322 ms,7 Mbps,986 kB/s
-47.238.3.84,443,47.245.197.109,DE,Frankfurt,隧道,58 ms,116 Mbps,14848 kB/s
-8.209.72.3,443,2606:f240:f00:5a42:0:3bb0:76a5:f756,US,Frankfurt,隧道,187 ms,33 Mbps,4350 kB/s
-47.91.94.194,443,2606:f240:f00:83a7:0:28dd:4d0f:f740,US,Frankfurt,隧道,187 ms,27 Mbps,3506 kB/s
-8.209.116.44,443,2a0b:21c0:100a:1b3:0:7c26:bc51:9277,DE,Frankfurt,隧道,196 ms,15 Mbps,1942 kB/s
-47.89.191.155,443,47.89.191.155,US,Ashburn,中转,269 ms,0 Mbps,49 kB/s
-8.219.98.13,443,8.219.98.13,SG,Singapore,中转,269 ms,7 Mbps,1022 kB/s
+47.238.164.202,443,47.238.164.202,HK,Hong Kong,中转,57 ms,46 Mbps,5890 kB/s
+47.242.68.32,443,47.242.68.32,HK,Hong Kong,中转,50 ms,0 Mbps,28 kB/s
+47.242.57.106,443,47.242.225.210,HK,Hong Kong,隧道,58 ms,125 Mbps,16076 kB/s
+47.57.13.107,443,8.212.23.141,HK,Hong Kong,隧道,57 ms,0 Mbps,7 kB/s
+8.217.90.154,443,8.217.90.154,HK,Hong Kong,中转,54 ms,30 Mbps,3878 kB/s
+47.238.3.84,443,47.245.197.110,DE,Frankfurt,隧道,50 ms,1 Mbps,218 kB/s
+47.238.235.163,443,47.238.235.163,HK,Hong Kong,中转,50 ms,42 Mbps,5412 kB/s
+47.238.245.170,443,47.238.245.170,HK,Hong Kong,中转,53 ms,44 Mbps,5741 kB/s
+47.57.245.232,443,47.254.73.153,US,San Jose,隧道,57 ms,3 Mbps,392 kB/s
+47.254.158.220,443,2a0b:21c0:1007:1c8:0:87b3:8255:cf83,DE,Frankfurt,隧道,192 ms,29 Mbps,3721 kB/s
+8.210.92.27,443,8.210.92.27,HK,Hong Kong,中转,57 ms,0 Mbps,65 kB/s
+47.91.93.76,443,163.123.193.10,DE,Frankfurt,隧道,184 ms,9 Mbps,1163 kB/s
+47.238.222.172,443,47.245.197.111,DE,Frankfurt,隧道,53 ms,118 Mbps,15155 kB/s
+47.90.141.204,443,104.166.125.210,US,Los Angeles,隧道,280 ms,16 Mbps,2072 kB/s
+8.209.97.168,443,2a0b:21c0:1007:1cb:0:c67a:3377:78bd,DE,Frankfurt,隧道,192 ms,12 Mbps,1570 kB/s
+47.91.76.217,443,2606:f240:f00:eaf1:0:2022:e652:64f6,US,Frankfurt,隧道,196 ms,7 Mbps,1002 kB/s
+8.211.7.149,443,2a0b:21c0:1007:c7:0:abed:cdd4:40b6,DE,Frankfurt,隧道,296 ms,29 Mbps,3774 kB/s
+47.254.172.85,443,2a0b:21c0:100a:1b4:0:8eca:d3cb:a5dc,DE,Frankfurt,隧道,194 ms,25 Mbps,3326 kB/s
+47.90.201.189,443,47.90.201.189,US,Ashburn,中转,272 ms,0 Mbps,68 kB/s
+8.209.115.218,443,2a0b:21c0:100a:1fa:0:af29:ab48:d785,DE,Frankfurt,隧道,187 ms,25 Mbps,3313 kB/s
+8.211.21.130,443,2a0b:21c0:1007:1c7:0:f149:1671:a5a3,DE,Frankfurt,隧道,189 ms,23 Mbps,3066 kB/s
+8.209.74.122,443,2a0b:21c0:100a:1fa:0:a789:fd84:8bc8,DE,Frankfurt,隧道,324 ms,27 Mbps,3474 kB/s
+47.236.117.48,443,47.236.117.48,SG,Singapore,中转,315 ms,2 Mbps,303 kB/s
+47.254.152.128,443,2606:f240:f00:46c4:0:f27e:1ba7:dd1b,US,Frankfurt,隧道,257 ms,32 Mbps,4122 kB/s
+8.209.67.71,443,2a0b:21c0:100a:1b7:0:fe4:5c75:b745,DE,Frankfurt,隧道,320 ms,5 Mbps,716 kB/s
+47.89.191.155,443,47.89.191.155,US,Ashburn,中转,271 ms,8 Mbps,1060 kB/s
+47.236.146.249,443,47.236.146.249,SG,Singapore,中转,324 ms,6 Mbps,772 kB/s
+8.222.225.193,443,8.222.225.193,SG,Singapore,中转,1315 ms,0 Mbps,31 kB/s
+47.251.74.226,443,104.166.125.210,US,Los Angeles,隧道,1247 ms,0 Mbps,50 kB/s
+149.129.8.215,443,47.88.55.210,US,San Jose,隧道,151 ms,3 Mbps,492 kB/s
+47.57.14.118,443,198.11.178.111,US,San Jose,隧道,54 ms,1 Mbps,223 kB/s
+47.91.65.26,443,98.98.166.182,AE,Frankfurt,隧道,305 ms,19 Mbps,2505 kB/s
